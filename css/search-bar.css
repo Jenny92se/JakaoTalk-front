@@ -1,0 +1,28 @@
+.search-bar {
+    padding: 10px 25px;
+    position: relative;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 5x 7px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 5px;
+    background-color: azure;
+    font-size: 13px;
+    text-align: center;
+    /* 모서리 둥글게 */
+}
+
+.search-bar input:focus {
+    outline: none;
+
+}
+
+.search-bar i {
+    position: absolute;
+    color: gray;
+    top: 10px;
+    left: 30px;
+}
