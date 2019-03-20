@@ -60,4 +60,15 @@
     color: rgb(161, 59, 59);
     box-shadow: 0px 3 10px rgba(0, 0, 0, 2);
     /* 좌우 하단 블러 색깔*/
+    transition: color .3s, background-color .3s, transform .5s ease-in-out;
+    /*  모든 것에 적용하고싶을때는
+    transition all .3s ease-in-out
+    이 경우에는 새로 고침시에 설정하지 않은 값들도 변경되어 보임
+    */
+}
+
+.chat-btn:hover {
+    color: blue;
+    background-color: aqua;
+    transform: rotateY(1turn);
 }

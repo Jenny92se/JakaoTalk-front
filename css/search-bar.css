@@ -7,16 +7,19 @@
     width: 100%;
     padding: 5x 7px;
     box-sizing: border-box;
-    border: 0;
+    border: 1px solid transparent;
     border-radius: 5px;
     background-color: azure;
     font-size: 13px;
     text-align: center;
     /* 모서리 둥글게 */
+
+    transition: border .5s linear
 }
 
 .search-bar input:focus {
     outline: none;
+    border-color: yellow;
 
 }
 
